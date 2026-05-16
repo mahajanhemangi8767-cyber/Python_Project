@@ -43,11 +43,11 @@ STEP 5 — Create requirements.txt
 
 STEP 6 — Create GitHub Workflow Folder
 
-mkdir -p .github/workflows
+- mkdir -p .github/workflows
 
 STEP 7 — Create Workflow File
 
-nano .github/workflows/python-test.yml
+- nano .github/workflows/python-test.yml
 
 `````
 bash
@@ -96,24 +96,24 @@ STEP 8 — Create GitHub Repository
 
 STEP 9 — Connect Local Repo to GitHub
 
-git remote add origin git@github.com:mahajanhemangi8767-cyber/Python_Project.git
+- git remote add origin git@github.com:mahajanhemangi8767-cyber/Python_Project.git
 
 
 STEP 10 — Add Files
 
-git add .
+- git add .
 
 STEP 11 — Commit Files
 
-git commit -m "Python testing workflow setup"
+- git commit -m "Python testing workflow setup"
 
 STEP 12 — Rename Branch
 
-git branch -M main
+- git branch -M main
 
 STEP 13 — Push Code
 
-git push -u origin main
+- git push -u origin main
 
 STEP 14 — Open GitHub Actions
 Open your repo
